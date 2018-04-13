@@ -18,7 +18,7 @@ import org.springframework.web.socket.server.HandshakeInterceptor;
 import cn.itcast.chatroom.domain.User;
 /**
  * websocket的链接建立是基于http握手协议，我们可以添加一个拦截器处理握手之前和握手之后过程
- * @author BoBo
+ * 
  *
  */
 @Component
