@@ -23,9 +23,7 @@ import cn.itcast.utils.GsonUtils;
 /**
  * 
  * 说明：WebSocket处理器
- * @author 
- * @version 1.0
- * @date 2016年10月27日
+ * 
  */
 @Component("chatWebSocketHandler")
 public class ChatWebSocketHandler implements WebSocketHandler {
