@@ -238,9 +238,6 @@ public class ChatWebSocketHandler implements WebSocketHandler {
 	 * 说明：给某个人发信息
 	 * @param id
 	 * @param message
-	 * @author 传智.BoBo老师
-	 * @throws IOException 
-	 * @time：2016年10月27日 下午10:40:52
 	 */
 	private void sendMessageToUser(String id, TextMessage message) throws IOException{
 		//获取到要接收消息的用户的session
@@ -298,8 +295,6 @@ public class ChatWebSocketHandler implements WebSocketHandler {
 	/**
 	 * 
 	 * 说明：群发信息：给所有在线用户发送消息
-	 * @author 传智.BoBo老师
-	 * @time：2016年10月27日 下午10:40:07
 	 */
 	private void sendMessageToAll(final TextMessage message){
 		
